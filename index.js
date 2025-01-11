@@ -20,7 +20,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow requests from this specific origin
+    origin: "https://backend-fri.onrender.com", // Allow requests from this specific origin
     credentials: true, // Allow cookies and authentication headers
   })
 );
